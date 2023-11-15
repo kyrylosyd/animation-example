@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Tooltip {
+  width: max-content;
+  background-color: #444;
+  color: white;
+  font-size: 90%;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.item {
+  text-align: left;
+  font-weight: bold;
+}
